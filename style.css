@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Josefin+Sans:ital,wght@1,300&family=Roboto:ital,wght@1,900&family=Work+Sans:wght@400;600;700;800&display=swap');
+
+*{
+    
+font-family: 'Work Sans', sans-serif;
+}
+header{
+    background-color: bisque;
+    padding:50px 50px;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.nav-title{
+    font-size: 2rem;
+}
+.banner{
+    
+}
+
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.banner-title{
+    font-size: 3rem;
+    font-weight:700;
+}
+.btn-primary{
+    padding: 18px 20px;
+    background-color: coral;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5;
+    cursor: pointer;
+}
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+}
+@media screen and (min-width:576px) and (max-width:960px){
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+}
